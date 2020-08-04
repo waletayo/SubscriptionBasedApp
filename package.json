@@ -1,0 +1,28 @@
+{
+  "name": "subscription",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Adeeyo temitayo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.27",
+    "nodemon": "^2.0.4",
+    "q": "^1.5.1",
+    "v-response": "^1.1.0",
+    "jsonwebtoken": "latest"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.0.0",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.2",
+    "underscore": "^1.10.2"
+  }
+}
